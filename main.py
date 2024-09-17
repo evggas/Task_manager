@@ -21,7 +21,7 @@ class TaskManager:
 
     def add_task(self):
         description = input("Введите описание задачи: ")
-        # Получаем текущую дату и форматируем её
+
         current_date = datetime.now().strftime("%d-%m-%Y")
         print(f"Текущая дата: {current_date}")
 
